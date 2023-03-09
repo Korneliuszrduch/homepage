@@ -1,0 +1,44 @@
+html {
+    box-sizing: border-box;
+}
+
+
+*, ::before, ::after {
+    box-sizing: inherit;
+}
+
+
+
+
+
+
+.changeThemeButton {
+    border-color: hsl(0, 0%, 50%);
+    border-style: solid;
+    border-radius: 5%;
+    color: hsl(0, 0%, 16%);
+    margin-bottom: 20px;
+}
+
+.body {
+
+    max-width: 1000px;
+    margin: auto;
+    background-color: rgb(252, 248, 248);
+    text-align: center;
+    line-height: 1.3;
+
+}
+
+.dark {
+    max-width: 1000px;
+    text-align: center;
+    margin: auto;
+    background-color: rgb(227, 234, 247);
+    line-height: 1.3;
+}
+
+
+
+
+

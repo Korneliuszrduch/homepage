@@ -1,0 +1,30 @@
+.table {
+
+    border-collapse: collapse;
+    margin: auto;
+
+}
+
+
+.table__header {
+    border: 2px solid rgb(22, 51, 214);
+    background-color: rgb(212, 221, 221);
+
+}
+
+
+.table__cell {
+    border: 2px solid rgb(22, 51, 214);
+    padding: 20px;
+
+
+}
+
+.table__row {
+    border: 2px solid rgb(22, 51, 214);
+}
+
+.table__row:hover {
+    background-color: rgb(213, 217, 224);
+
+}
