@@ -1,4 +1,5 @@
 
+{
     const welcome = () => {
         console.log("Witam wszystkich developerów");
     };
@@ -24,3 +25,4 @@
     removeHeader();
     welcome();
     init();
+}
