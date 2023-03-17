@@ -1,24 +1,26 @@
-console.log("cześć");
-let przycisk = document.querySelector(".button")
-let naglowek = document.querySelector(".h1")
-console.log(przycisk);
-console.log(naglowek);
-przycisk.addEventListener("click", () => {
-    naglowek.remove();
-});
 
-
-console.log("Cześć2!");
-
-let button = document.querySelector(".footer__button");
-console.log(button);
-let body = document.querySelector(".body");
-console.log(body);
-let footer__span = document.querySelector(".footer__span")
-
-button.addEventListener("click", () => {
-    body.classList.toggle("dark");
-
-    footer__span.innerText = body.classList.contains("dark") ? "jasny" : "ciemny";
-});
-
+    const welcome = () => {
+        console.log("Witam wszystkich developerów");
+    };
+    const removeHeader = () => {
+        const button = document.querySelector(".js-button");
+        const header = document.querySelector(".js-header");
+        button.addEventListener("click", () => {
+            header.remove();
+            button.remove();
+        });
+    };
+    const toggleBackground = () => {
+        const body = document.querySelector(".js-body");
+        const nextColorname = document.querySelector(".js-nextColorname");
+        body.classList.toggle("body--grey");
+        nextColorname.innerText = body.className.match("body--grey") ? "jasny" : "ciemny";
+    };
+    const init = () => {
+        const changeBackgroundButton = document.querySelector(".js-changeBackgroundButton");
+        changeBackgroundButton.addEventListener("click", toggleBackground);
+    };
+    
+    removeHeader();
+    welcome();
+    init();

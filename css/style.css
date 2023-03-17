@@ -7,19 +7,6 @@ html {
     box-sizing: inherit;
 }
 
-
-
-
-
-
-.changeThemeButton {
-    border-color: hsl(0, 0%, 50%);
-    border-style: solid;
-    border-radius: 5%;
-    color: hsl(0, 0%, 16%);
-    margin-bottom: 20px;
-}
-
 .body {
 
     max-width: 1000px;
@@ -30,11 +17,11 @@ html {
 
 }
 
-.dark {
+.body--grey {
     max-width: 1000px;
     text-align: center;
     margin: auto;
-    background-color: rgb(227, 234, 247);
+    background-color: rgb(220, 227, 240);
     line-height: 1.3;
 }
 
