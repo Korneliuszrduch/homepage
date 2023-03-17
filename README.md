@@ -1,6 +1,6 @@
 # Korneliusz Rduch - Moja strona
-![Korneliusz](images/korneliusz Rduch zdjecia profiliowe 250x260.png)
+![Korneliusz](https://avatars.githubusercontent.com/u/127408364?v=4)
 ## Demo
 https://korneliuszrduch.github.io/homepage/
-## Opis
+
 
